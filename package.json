@@ -1,0 +1,37 @@
+{
+  "name": "vanilla-dns",
+  "version": "1.0.0",
+  "description": "Multicast/Unicast DNS implementation for Node.js using no dependencies for lightweight and platform-agnostic use.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JJK801/DNS.js.git"
+  },
+  "keywords": [
+    "mDNS",
+    "DNS",
+    "vanilla",
+    "Multicast",
+    "Unicast",
+    "Bonjour",
+    "iot"
+  ],
+  "author": "Jérémy Jourdin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JJK801/DNS.js/issues"
+  },
+  "homepage": "https://github.com/JJK801/DNS.js#readme",
+  "devDependencies": {
+    "jest": "^24.5.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-path-override-plugin": "^1.0.5"
+  }
+}
